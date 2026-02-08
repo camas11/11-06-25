@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Berdua Bersama</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+          <h2>CAMAS</h2>
+        </header>
+
+        <nav class="nav__item--dropdown">
+            <div class="nav__container">
+                <span class="nav__logo">11-06-25</span>
+
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__trigger">nemu</button>
+
+                        <ul class="nav__menu">
+                            <li>
+                                <a href="#Profil" class="nav__link">Profil</a>
+                            </li>
+                            <li>
+                                <a href="#cerita" class="nav__link">cerita</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="container">
+            <div class="profile-grid">
+                <section id="Profil" class="card card--profile">
+                    <!-- data gw -->
+                    <img
+                        src="gw.jpg"
+                        alt="Foto Dimas Putra Maulana"
+                        class="profile-img"
+                    />
+                    <h2>Profil Aku</h2>
+
+                    <ul>
+                        <li>Nama: Dimas Putra Maulana</li>
+                        <li>Umur: 16</li>
+                        <li>Hobi: Membuat code unik</li>
+                    </ul>
+                    <p>
+                        Seorang pelajar yang memiliki ketertarikan pada
+                        teknologi dan senang mengeksplorasi hal-hal baru,
+                        terutama dalam dunia pemrograman.
+                    </p>
+                </section>
+
+                <section class="card card--profile">
+                    <img
+                        src="doi.jpg"
+                        alt="Foto Wafa Khansa Karunisa"
+                        class="profile-img"
+                    />
+                    <h2>Profil Dia</h2>
+
+                    <ul>
+                        <li>Nama: Wafa Khasa Karunisa</li>
+                        <li>Umur: 16</li>
+                    </ul>
+                    <p>
+                        Sorang perempuan yang ceria, gemar mencoba berbagai
+                        jajanan, dan sering menghabiskan waktu hingga larut
+                        malam.
+                    </p>
+                </section>
+            </div>
+
+            <!--tentag kami -->
+            <section id="cerita" class="card card--styry highlight">
+                <h2>Pesan Aku</h2>
+                <p>
+                    maaffff yaaa bocillll, akuuu seringgg buatttt kamuuuu
+                    kecewaaaa atauuuu nangissss garaaaa garaaa sikapppp akuuuu,
+                    maafffff akuuuu belummm cukupppp dariii kataaa SEMPUTRA,
+                    dannnn maafffff akuuu belumm bisaaaa ngasiii apaaa yanggg
+                    kamuuu mauuuu
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>Foto Berdua</h2>
+
+                <div class="slider">
+                    <div class="slider__track">
+                        <img src="foto1.jpg" class="slider__item" />
+                        <img src="foto2.jpg" class="slider__item" />
+                        <img src="foto3.jpg" class="slider__item" />
+                        <img src="foto4.jpg" class="slider__item" />
+                    </div>
+                </div>
+
+                <div class="slider__controls">
+                    <button id="prev">kiri</button>
+                    <button id="next">kanan</button>
+                </div>
+            </section>
+
+           
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; Data Hubungan</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
